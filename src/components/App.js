@@ -3,6 +3,7 @@
   import Header from '../shared/components/layout/Header';
   import Content from '../shared/components/layout/Content';
   import Footer from '../shared/components/layout/Footer';
+  import Timer from './Pomodoro/Timer';
   import './App.css';
 
   class App extends Component {
@@ -14,7 +15,7 @@
           <Content>
             <Todo />
           </Content>
-
+          <Timer />
           <Footer />
         </div>
       );
